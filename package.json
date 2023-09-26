@@ -1,7 +1,7 @@
 {
-  "name": "CountdownApp",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-time-countdown",
+  "version": "1.1.0",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -37,5 +37,21 @@
   },
   "engines": {
     "node": ">=16"
-  }
+  },
+  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanya634/RNCountdown.git"
+  },
+  "keywords": [
+    "time",
+    "countdown"
+  ],
+  "author": "Chaitanya Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanya634/RNCountdown/issues"
+  },
+  "homepage": "https://github.com/chaitanya634/RNCountdown#readme"
 }
