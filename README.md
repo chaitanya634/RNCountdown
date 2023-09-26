@@ -3,6 +3,8 @@
 Made with love by Chaitanya Jadhav
 Highly customizable package
 
+https://www.npmjs.com/package/react-native-time-countdown
+
 ![Image](https://i.ibb.co/MsS4XRN/Screenshot-2023-09-26-at-4-12-12-PM.png" alt="Screenshot-2023-09-26-at-4-12-12-PM)
 
 Example:
