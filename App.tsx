@@ -9,6 +9,9 @@ function App(): JSX.Element {
       <TimeCountdown
         utcDateTime="2023-09-26 13:30:00"
         radius={40}
+        progressValueStyle={{ color: '#000' }}
+        labelTextStyle={{ fontSize: 14, color: '#000' }}
+        activeStrokeColor='#000'
       />
     </SafeAreaView>
   )
