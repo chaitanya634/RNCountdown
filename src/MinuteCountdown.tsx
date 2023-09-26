@@ -1,8 +1,7 @@
-import { useState } from "react"
-import { Text } from "react-native"
+import { Text, View } from "react-native"
 import { useCountdown } from "react-native-countdown-circle-timer"
-import { CountdownProps } from "./App"
 import CircularProgress from "react-native-circular-progress-indicator"
+import { CountdownProps } from "./types"
 
 const MinuteCountdown = (props: CountdownProps) => {
 
@@ -15,14 +14,17 @@ const MinuteCountdown = (props: CountdownProps) => {
     const minutes = Math.floor((remainingTime % 3600) / 60)
 
     return (
-        // <Text>{minutes}</Text>
-        <CircularProgress
-            value={minutes}
-            radius={60}
-            progressValueColor={'#000'}
-            maxValue={60}
-            activeStrokeColor="#000"
-        />
+        <View style={{ alignItems: 'center' }} >
+            <CircularProgress
+                value={minutes}
+                radius={props.radius}
+                maxValue={60}
+                progressValueStyle={props.progressValueStyle}
+                activeStrokeColor={props.activeStrokeColor}
+                inActiveStrokeColor={props.inactiveStrokeColor}
+            />
+            <Text style={props.labelTextStyle} >Minutes</Text>
+        </View>
     )
 }
 
